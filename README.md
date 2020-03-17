@@ -1,4 +1,6 @@
-# Using Vagrant:
+# VAGRANT & VIRTUAL BOX 101
+
+## Using Vagrant:
 
 vagrant init
 
@@ -12,10 +14,10 @@ Then **'vagrant up'**
 Then **'vagrant ssh'**
 
 
-# How To Update Packages:
+## How To Update Packages:
 sudo apt-get update -y
 
-# How To Install Packages:
+## How To Install Packages:
 sudo apt-get instal <package name> -y
 
   - In This Case: **'sudo apt-get nginx -y'**
@@ -24,7 +26,7 @@ sudo apt-get instal <package name> -y
 
   - Lastly Type: **'ps aux | grep nginx to check it is running'**
 
-# To end the program:
+## To end the program:
 Type 'exit' To Exit Ubuntu.
 
 now go into config file and type:
